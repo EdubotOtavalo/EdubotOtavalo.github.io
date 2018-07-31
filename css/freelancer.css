@@ -11,7 +11,7 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
-
+header
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -170,6 +170,9 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+  background-image: url("../img/background.png");
+  background-repeat:no-repeat;
+  background-size:100%;
 }
 
 header.masthead h1 {
@@ -200,26 +203,20 @@ header.masthead h2 {
   margin-bottom: -15px;
 }
 
-.portfolio .portfolio-item {
+.portfolio .portfolio-item1 {
   position: relative;
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
-}
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+
+.portfolio .portfolio-item1 .portfolio-item-caption:hover {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.portfolio .portfolio-item1 .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
 
@@ -227,7 +224,7 @@ header.masthead h2 {
   .portfolio {
     margin-bottom: -30px;
   }
-  .portfolio .portfolio-item {
+  .portfolio .portfolio-item1 {
     margin-bottom: 30px;
   }
 }
