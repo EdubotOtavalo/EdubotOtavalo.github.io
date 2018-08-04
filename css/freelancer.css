@@ -54,6 +54,19 @@ hr.star-dark:after {
   background-color: white;
 }
 
+.subtitulo {
+padding-bottom:3vw;
+}
+
+.logo {
+padding-bottom:3vw;
+display:none;
+}
+
+@media (min-width:600px) {
+.logo {
+display:block;}
+}
 section {
   padding: 6rem 0;
 }
@@ -168,7 +181,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+  padding-top: calc(6rem);
   padding-bottom: 6rem;
   background-image: url("../img/background.png");
   background-repeat:no-repeat;
@@ -176,18 +189,18 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 3rem;
 }
 
 header.masthead h2 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: 'Lato';
 }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(6rem + 50px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
