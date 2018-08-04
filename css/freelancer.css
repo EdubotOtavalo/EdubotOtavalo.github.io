@@ -59,14 +59,13 @@ padding-bottom:3vw;
 }
 
 .logo {
+width:130px;
 padding-bottom:3vw;
-display:none;
+padding-top:3vw;
+
 }
 
-@media (min-width:600px) {
-.logo {
-display:block;}
-}
+
 section {
   padding: 6rem 0;
 }
@@ -183,10 +182,15 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem);
   padding-bottom: 6rem;
+
+
+}
+@media (min-width:600px){
+header.masthead{
   background-image: url("../img/background.png");
   background-repeat:no-repeat;
   background-size:100%;
-}
+}}
 
 header.masthead h1 {
   font-size: 2rem;
@@ -194,7 +198,7 @@ header.masthead h1 {
 }
 
 header.masthead h2 {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-family: 'Lato';
 }
 
