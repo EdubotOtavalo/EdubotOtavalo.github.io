@@ -84,9 +84,9 @@ section h2 {
 
 @media (max-width: 600px) {
 .inscribete{
-background-color:#ffffff;
+background-color:#ffffff!important;
 color:#18BC9C;
-}
+}}
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
